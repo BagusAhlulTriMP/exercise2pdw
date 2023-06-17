@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Halaman Biodata</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@200&family=Oswald&family=Roboto:ital,wght@0,100;0,300;1,100&family=Schibsted+Grotesk:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <h1>VALORANT</h1>
+        <ul>
+            <li>
+                <h2 id="audio">Audio VALORANT</h2>
+                <p>Ini adalah audio VALORANT yang dapat Anda putar dan dengarkan. Silakan gunakan kontrol pemutaran di bawah untuk mengontrol audio.</p>
+                <hr>
+                <audio controls>
+                    <source src="Retake Valorant.mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li>
+                <h2 id="video">Video Valorant</h2>
+                <p>Ini adalah video Valorant yang dapat Anda putar dan tonton. Gunakan kontrol pemutaran di atas untuk mengontrol video. Video ini akan diputar secara otomatis dengan volume yang dimatikan.</p>
+                <hr>
+                <video controls width="300" height="500" loop autoplay muted preload="auto">
+                    <source src="Valorant retake.mp4" type="Video/mp4">
+                    <track kind="captions" src="Valorant retake.mp4" srclang="en" label="English">
+                </video>
+            </li>
+            <li>
+                <h2 id="gambar">Gambar Responsive</h2>
+                <p>Ini adalah gambar yang menampilkan ilustrasi tentang Valorant. Gambar ini akan disesuaikan dengan lebar tampilan halaman web. Jika lebar tampilan kurang dari 600px, gambar pertama akan ditampilkan. Jika lebar tampilan antara 600px dan 1200px, gambar kedua akan ditampilkan.</p>
+                <hr>
+                <picture>
+                    <source media="(max-width: 600px)" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIi5Rs1cKqVUP3U5YzlFlKe7vx5wiK5QUhxw&usqp=CAU">
+                    <source media="(max-width: 1200px)" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyFG0UodjDU17iZHNknU82Jd0d7VmldjOaJX_FwIe4cC3A_tG5EcfhAgpyzdxAftXp_1w&usqp=CAU">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIi5Rs1cKqVUP3U5YzlFlKe7vx5wiK5QUhxw&usqp=CAU" alt="pic 1" style="width: auto;">
+                </picture>
+            </li>
+        </ul>
+
+        <button onclick="location.href='halaman-selanjutnya.html'">Survei</button>
+
+        </center>
+        <script src="exe2.js"></script>
+    </body>
+</html>

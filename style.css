@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://images.hindustantimes.com/tech/img/2022/12/09/960x540/Valorant_twitter_1670583661521_1670583671202_1670583671202.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+}
+h2{
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rosybrown;
+            background: antiquewhite;
+            color: red;
+            box-shadow: 1px 1px 2px whitesmoke;
+            border-radius: 10px;
+            padding: 3px 10px;
+            cursor: pointer;
+}
+body {
+    font-size: 18px; 
+    font-family: Arial, sans-serif; 
+  }
+
+  button {
+    width: 90px;
+    height: 35px;
+}
